@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.row-header{
+    width: 100%;
+    height: 50px;
+    background-color: #b3d4fc;
+}
+.newton-name{
+    display: flex;
+    justify-content: flex-start; 
+    margin-left: 150px;
+    vertical-align: text-bottom;
+}
+.refer{
+    margin: auto ;
+    margin-left: 600px;
+    cursor: pointer;
+    
+    
+}
+#head{
+    width:40px;
+    margin-top: 5px;
+    min-height: auto;
+    margin-right: 310px;
+    
+}
