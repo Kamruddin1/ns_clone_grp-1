@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.blog{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    background-color: #b3d4fc;
+    
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 4px; 
+    margin-top: 20x;
+    color: white;
+    font-weight:900 bold;
+}
