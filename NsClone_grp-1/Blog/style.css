@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
 .blog{
     margin-top: 10px;
     display: flex;
@@ -12,12 +13,86 @@
     background-color: #b3d4fc;
     
 }
-.card{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    padding: 4px; 
-    margin-top: 20x;
+.container{
+    width: 200px;
+    height: 200px;
     color: white;
-    font-weight:900 bold;
+    margin-top: 50px;
+
 }
+.container .card{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 30px;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background: rgb(11, 11, 11);
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+.footer .left{
+    color: white;
+    margin-top: 50px;
+
+}
+.footer .right{
+    display: flex;
+    justify-content: flex-end;
+    top: 0;
+
+}
+.fa {
+    padding: 20px;
+    font-size: 15px;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
