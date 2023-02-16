@@ -1,0 +1,26 @@
+*{
+    margin: 0;;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container .h1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    font-size:xx-large;
+    background-color: #0d1117;
+    color: white;
+   
+}
+/* .container .nsLogo{
+    width: 100%;
+    height: auto;
+} */
+.container .h1 span{
+    /* background-color: #fff; */
+    background-color: linear-gradient(207deg,#079de0 23%,#4036be 87%);
+
+}
+
