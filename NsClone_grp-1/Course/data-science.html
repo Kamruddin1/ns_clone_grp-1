@@ -6,12 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Science Course</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
     <style>
-        #body{
+        #div {
+            padding: 20px;
+        }
+
+        #p {
+            margin: 20px;
+        }
+
+        #body {
             margin: 80px;
             padding: 80px;
         }
+
         section {
             padding: 20px;
         }
@@ -33,6 +42,25 @@
         #button {
             cursor: pointer;
         }
+
+        #sub-button {
+            margin-top: 10px;
+            padding: 15px 25px;
+            border-radius: 50px;
+            background-color: #2c3a4b;
+            color: #fff;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        #ul.no-bullets {
+            list-style-type: none;
+            /* Remove bullets */
+            padding: 0;
+            /* Remove padding */
+            margin: 0;
+            /* Remove margins */
+        }
     </style>
 </head>
 
@@ -49,7 +77,7 @@
                     <li>Project-based live learning</li>
                     <li>Two specialisations available</li>
                 </ul>
-                <button type="submit" id="btn">Register Now</button>
+                <button type="submit" id="sub-button">Register Now</button>
             </list>
         </div>
         <div>
@@ -68,7 +96,7 @@
                 <label>Mobile No.</label>
                 <input type="tel">
                 <br>
-                <button type="submit" id="btn">Send OTP</button>
+                <button type="submit" id="sub-button">Send OTP</button>
             </form>
     </section>
     <section>
@@ -82,33 +110,37 @@
     </section>
     <section id="form" name="overview">
 
-        <div>check
-            Industry relevant curriculum
-            check
-            1000+ industry experts
-            check
-            Live projects and interview preparation</div>
-        <div>check
-            Lifetime placement assistance
-            check
-            Daily live classes
-            check
-            Soft Skills Training</div>
-        <div> check
-            Resume Building Sessions
-            check
-            Professional Certificate
-            check
-            Live Mentorship Sessions
-            check</div>
-        <div>Three specialisations to choose from
-            check
-            Company-specific interview prep
-            check
-            Taught from basics</div>
+        <div>
+            <ul list-style-type: none;>
+                <li>✔️ Industry relevant curriculum</li>
+                <li>✔️ 1000+ industry experts</li>
+                <li>✔️ Live projects and interview preparation</li>
+            </ul>
+        </div>
 
+        <div>
+            <ul list-style-type: none;>
+                <li>✔️ Lifetime placement assistance</li>
+                <li>✔️ Daily live classes</li>
+                <li>✔️ Soft Skills Training</li>
+            </ul>
+        </div>
 
+        <div>
+            <ul list-style-type: none;>
+                <li>✔️ Resume Building Sessions</li>
+                <li>✔️ Professional Certificate</li>
+                <li>✔️ Live Mentorship Sessions</li>
+            </ul>
+        </div>
 
+        <div>
+            <ul list-style-type: none;>
+                <li>✔️ Three specialisations to choose from</li>
+                <li>✔️ Company-specific interview prep</li>
+                <li>✔️ Taught from basics</li>
+            </ul>
+        </div>
 
     </section>
     <section id="hiringPartner">
@@ -187,52 +219,71 @@
     <section id="placement"></section>
     <section id="reviews"></section>
     <section id="fee-emi"></section>
-    <section><p>What is the duration of the Professional Data Science Certification course by Newton School?
+    <section>
+        <p>What is the duration of the Professional Data Science Certification course by Newton School?
+        <p>The course takes 8-9 months to complete for Data Science, and 12-14 months to complete for Advanced Data
+            Science, including mock interviews after the learning journey with instructors.</p>
+        </p>
 
-        The course takes 8-9 months to complete for Data Science, and 12-14 months to complete for Advanced Data Science, including mock interviews after the learning journey with instructors.
-        
-        What is the course fee for the Professional Data Science Certification course at Newton School?
-        
-        The course fee is ₹2.10* lakhs (including GST) and includes access to all course materials, hands-on exercises and capstone projects, and the certification for Data Science, and ₹2.99* lakhs (including GST) for Advanced Data Science.
-        
-        Is there any minimum education qualification required for the programme?
-        
-        Bachelor's degree or diploma is required to apply for the course. A basic understanding of statistics and programming is recommended, but not required.
-        
-        Who will be teaching the Professional Data Science Certification course at Newton School?
-        
-        The course will be taught by experienced data scientists with a wealth of industry experience, working at top companies around the globe.
-        
-        What will I learn in the Professional Data Science Certification course at Newton School?
-        
-        You will learn the key concepts and techniques of data science, including data mining, machine learning, statistical analysis, deep learning and big data and cloud computing.
-        
-        What will I receive after completing the Professional Data Science Certification course at Newton School?
-        
-        Upon successful completion of the course, you will receive a professional certification from Newton School.
-        
-        What tools and software would be taught or used during the course?
-        
-        You will learn tools, languages, and software such as SQL, Python, PowerBI, Pandas, NumPy, Tableau, Matplotlib, Excel, and TensorFlow during the course. For more details, please go through the curriculum.
-        
-        What career opportunities will be available to me after completing the Professional Data Science Certification course at Newton School?
-        
-        Students from our course will be prepared for a wide range of career opportunities, including data analyst, data engineer, machine learning engineer, and more.
-        
-        What will I receive after completing the Professional Data Science Certification course at Newton School?
-        
-        Upon successful completion of the course, you will receive a professional certification from Newton School.
-        
-        Is there any support available if I have any issues during the course?
-        
-        Yes, our team of experts is always available to provide technical support and help with any issues you may have.</p></section>
+        <p>What is the course fee for the Professional Data Science Certification course at Newton School?
+        <p>The course fee is ₹2.10* lakhs (including GST) and includes access to all course materials, hands-on
+            exercises and capstone projects, and the certification for Data Science, and ₹2.99* lakhs (including GST)
+            for Advanced Data Science.</p>
+        </p>
+
+        <p>Is there any minimum education qualification required for the programme?
+        <p> Bachelor's degree or diploma is required to apply for the course. A basic understanding of statistics and
+            programming is recommended, but not required.</p>
+        </p>
+
+
+        <p> Who will be teaching the Professional Data Science Certification course at Newton School?
+        <p>The course will be taught by experienced data scientists with a wealth of industry experience, working at
+            top companies around the globe.
+        </p>
+        </p>
+
+        <p>What will I learn in the Professional Data Science Certification course at Newton School?
+        <p>You will learn the key concepts and techniques of data science, including data mining, machine learning,
+            statistical analysis, deep learning and big data and cloud computing.
+        </p>
+        </p>
+
+        <p> What will I receive after completing the Professional Data Science Certification course at Newton School?
+        <p>Upon successful completion of the course, you will receive a professional certification from Newton School.
+        </p>
+        </p>
+
+        <p>What tools and software would be taught or used during the course?
+        <p>You will learn tools, languages, and software such as SQL, Python, PowerBI, Pandas, NumPy, Tableau,
+            Matplotlib, Excel, and TensorFlow during the course. For more details, please go through the curriculum.</p>
+        </p>
+
+        <p>What career opportunities will be available to me after completing the Professional Data Science
+            Certification course at Newton School?
+        <p>Students from our course will be prepared for a wide range of career opportunities, including data analyst,
+            data engineer, machine learning engineer, and more.</p>
+        </p>
+
+        <p> What will I receive after completing the Professional Data Science Certification course at Newton School?
+
+        <p>Upon successful completion of the course, you will receive a professional certification from Newton School.
+        </p>
+        </p>
+
+        <p>Is there any support available if I have any issues during the course?
+
+        <p>Yes, our team of experts is always available to provide technical support and help with any issues you may
+            have.</p>
+        </p>
+    </section>
     <section id="form">
         <div>
             <h1>Start your Data Science journey today!</h1>
             <h2>Next batch starts from Mar, 2023</h2>
             <p>Don't miss this opportunity to take your career to the next level. Enroll in the Professional Data
                 Science Certification course at Newton School today!</p>
-            <button type="submit" id="button">Register Now</button>
+            <button type="submit" id="sub-button">Register Now</button>
         </div>
         <div>
             <h1>Science Certification</h1>
