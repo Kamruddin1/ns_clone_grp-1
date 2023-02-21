@@ -8,6 +8,11 @@
   <title>Full Stack Course</title>
   <!-- <link rel="stylesheet" href="styleNS.css"> -->
   <style>
+    * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
     #div {
       padding: 20px;
     }
@@ -16,11 +21,11 @@
       margin: 20px;
     }
 
-    #body {
+    /* #body {
       margin: 80px;
       padding: 80px;
-    }
-
+    } */
+ 
     section {
       padding: 20px;
     }
@@ -30,6 +35,29 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+    }
+
+    #form-bro {
+      position: relative;
+      z-index: 5;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      overflow: hidden;
+      padding: 4em 0;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      border-radius: 1.5em;
+      background-color: #0052cc;
+      text-align: center;
     }
 
     #batch {
@@ -112,7 +140,7 @@
   </section>
   <section>
 
-    <section id="form">
+    <section id="form-bro">
       <h1>Download Brochure</h1><br>
       <label>Name</label><br>
       <input type="text"><br>
