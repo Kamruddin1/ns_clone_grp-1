@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Science Course</title>
     <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <link rel="icon" href="./NS_Lite.png">
+    <!-- <meta http-equiv="Icon" content="/NS_Lite.png"> -->
     <style>
         #div {
             padding: 20px;
@@ -61,6 +63,15 @@
             margin: 0;
             /* Remove margins */
         }
+
+        summary {
+            list-style: none;
+        }
+
+        #que_collapse {
+            appearance: none;
+            list-style: none;
+        }
     </style>
 </head>
 
@@ -68,7 +79,7 @@
     <section id="form" name="formSec">
         <div>
             <h1>Professional Certificate Course in Data Science</h1>
-            <list>
+            <div>
                 <ul>
                     <li>Designed for individuals who want enter the field of Data Science.</li>
                     <li>Open to students with a Bachelor's degree or a diploma</li>
@@ -78,10 +89,11 @@
                     <li>Two specialisations available</li>
                 </ul>
                 <button type="submit" id="sub-button">Register Now</button>
-            </list>
+            </div>
         </div>
         <div>
             <h1>Get Started with Data Science Today</h1>
+            <h2>Request a call back today</h2>
 
             <form>
                 <label>First Name</label>
@@ -189,143 +201,185 @@
     </section>
     <section>
         <div>
-            <h2>Mathematics</h2>
-            <list>
-                <ul>Beginner
-                    <li>Number Systems</li>
-                    <li>Percentage, Ratio & Proportion</li>
-                    <li>Simple and Compound Interest<Profit & Loss/li>
-                    <li>Linear Equations</li>
-                    <li>Quadratic Equations</li>
-                    <li>Set, Relations & Functions</li>
-                </ul>
-                <ul>Intermediate
-                    <li>Basic Counting Principles</li>
-                    <li>Basic Probability Theory</li>
-                    <li>Conditional Probability & Bayes Theorem</li>
-                    <li>Basic Statistics</li>
-                    <li>Data Interpretation</li>
-                    <li> Descriptive Statistics</li>
-                </ul>
-                <ul>Advanced
-                    <li>Random Variables</li>
-                    <li>Distribution Functions</li>
-                    <li>Correlation, Covariance & Independence</li>
-                    <li>Population & Sampling</li>
-                    <li>Confidence Interval</li>
-                    <li>Hypotheis Testing</li>
-                    <li>Inferential Statistics</li>
-                </ul>
-            </list>
+            <details>
+                <summary>
+                    <h2>Mathematics</h2>
+                </summary>
+                <div>
+                    <ul>Beginner
+                        <li>Number Systems</li>
+                        <li>Percentage, Ratio & Proportion</li>
+                        <li>Simple and Compound Interest </li>
+                        <li>Profit & Loss</li>
+                        <li>Linear Equations</li>
+                        <li>Quadratic Equations</li>
+                        <li>Set, Relations & Functions</li>
+                    </ul>
+                    <ul>Intermediate
+                        <li>Basic Counting Principles</li>
+                        <li>Basic Probability Theory</li>
+                        <li>Conditional Probability & Bayes Theorem</li>
+                        <li>Basic Statistics</li>
+                        <li>Data Interpretation</li>
+                        <li> Descriptive Statistics</li>
+                    </ul>
+                    <ul>Advanced
+                        <li>Random Variables</li>
+                        <li>Distribution Functions</li>
+                        <li>Correlation, Covariance & Independence</li>
+                        <li>Population & Sampling</li>
+                        <li>Confidence Interval</li>
+                        <li>Hypotheis Testing</li>
+                        <li>Inferential Statistics</li>
+                    </ul>
+            </details>
+        </div>
         </div>
         <br>
         <div>
-            <h1>Data Analytics & Visualisation Using Tools</h1>
-            <ul>Excel
-                <li>Introduction to Excel</li>
-                <li>Merging and Looking Up Data</li>
-                <li>Decision Making with IF</li>
-                <li>Preparing Data for Analysis</li>
-                <li>Pivot Tables</li>
-                <li>Visualising Data with Charts</li>
-                <li>Forecasting</li>
-                <li>WhatIf Analysis</li>
-                <li>Advanced Functions</li>
-                <li>Dashboards</li>
-            </ul>
-            <ul>SQL<li></li>
-                <li>Introduction to Data & Databases</li>
-                <li> Entities & Relations</li>
-                <li>Introduction to Tables</li>
-                <li>SQL General Query Commands</li>
-                <li>Joins</li>
-                <li>Subqueries</li>
-                <li>SQL Scripts</li>
-                <li> Views</li>
-                <li> Functions</li>
-                <li>Triggers</li>
-                <li>ORM using SQLAlchemy</li>
-                <li> Overview of other Databases</li>
-                <li> Operator Constraints</li>
-                <li>Windows Functions in SQL</li>
-                <liStored Procedures>
-                    </li>
-                    <li>Database Normalisation</li>
-                    <li>Derived Tables</li>
-                    <li>Group BY</li>
-                    <li>Like</li>
-                    <li>Views</li>
-                    <li>Aggregation operations</li>
-                    <li>Filtering</li>
-            </ul>
-            <ul>Data Visualisation<li></li>
-                <li>Introduction to Tableau</li>
-                <li>Groups and Sets</li>
-                <li>Table Calculations</li>
-                <li>Data Preparation</li>
-                <li>Data Analysis</li>
-                <li>Animations</li>
-                <li>Advanced Mapping Techniques</li>
-            </ul>
+            <details>
+                <summary>
+                    <h1>Data Analytics & Visualisation Using Tools</h1>
+
+                </summary>
+                <ul>Excel
+                    <li>Introduction to Excel</li>
+                    <li>Merging and Looking Up Data</li>
+                    <li>Decision Making with IF</li>
+                    <li>Preparing Data for Analysis</li>
+                    <li>Pivot Tables</li>
+                    <li>Visualising Data with Charts</li>
+                    <li>Forecasting</li>
+                    <li>WhatIf Analysis</li>
+                    <li>Advanced Functions</li>
+                    <li>Dashboards</li>
+                </ul>
+                <ul>SQL<li></li>
+                    <li>Introduction to Data & Databases</li>
+                    <li> Entities & Relations</li>
+                    <li>Introduction to Tables</li>
+                    <li>SQL General Query Commands</li>
+                    <li>Joins</li>
+                    <li>Subqueries</li>
+                    <li>SQL Scripts</li>
+                    <li> Views</li>
+                    <li> Functions</li>
+                    <li>Triggers</li>
+                    <li>ORM using SQLAlchemy</li>
+                    <li> Overview of other Databases</li>
+                    <li> Operator Constraints</li>
+                    <li>Windows Functions in SQL</li>
+                    <liStored Procedures>
+                        </li>
+                        <li>Database Normalisation</li>
+                        <li>Derived Tables</li>
+                        <li>Group BY</li>
+                        <li>Like</li>
+                        <li>Views</li>
+                        <li>Aggregation operations</li>
+                        <li>Filtering</li>
+                </ul>
+                <ul>Data Visualisation<li></li>
+                    <li>Introduction to Tableau</li>
+                    <li>Groups and Sets</li>
+                    <li>Table Calculations</li>
+                    <li>Data Preparation</li>
+                    <li>Data Analysis</li>
+                    <li>Animations</li>
+                    <li>Advanced Mapping Techniques</li>
+                </ul>
+            </details>
+
+
         </div>
     </section>
     <section>
         <div>
-            <h1>Data Analytics & Visualisation with Python</h1>
-            <ul>Introduction to Programming in Python
-                <li>Basics of Python</li>
-                <li>Advanced Python - OOP, DS</li>
-                <li>NumPy Pandas</li>
-                <li>Data Processing</li>
-                <li>Plotting & Visualisation using Matplotlib & Seaborn</li>
-                <li> Data Aggregation & Grouping</li>
-                <li>Time Series Data</li>
-                <li>Data Wrangling</li>
-                <li>Web scraping and API</li>
-            </ul>
+            <details>
+                <summary>
+                    <h1>Data Analytics & Visualisation with Python</h1>
+                </summary>
+                <ul>Introduction to Programming in Python
+                    <li>Basics of Python</li>
+                    <li>Advanced Python - OOP, DS</li>
+                    <li>NumPy Pandas</li>
+                    <li>Data Processing</li>
+                    <li>Plotting & Visualisation using Matplotlib & Seaborn</li>
+                    <li> Data Aggregation & Grouping</li>
+                    <li>Time Series Data</li>
+                    <li>Data Wrangling</li>
+                    <li>Web scraping and API</li>
+                </ul>
+            </details>
+
+
         </div>
     </section>
     <section>
-        <h1>Machine Learning</h1>
-        <ul>Fundamentals
-            <li>Introduction to Machine Learning</li>
-            <li>Regression</li>
-            <li>Classification</li>
-            <li>Probability Estimation & Dimensionality Reduction</li>
-            <li>Decision Trees & Ensemble Methods</li>
-        </ul>
-        <ul>Application
-            <li>Intro to Sklearn & Tensorflow</li>
-            <li>Regression using Sklearn & Tensorflow</li>
-            <li>Classification using Sklearn & Tensorflow</li>
-            <li>Decision Trees using Sklearn & Tensorflow</li>
-            <li>Using NN with Tensorflow</li>
-        </ul>
+        <div>
+            <details>
+                <summary>
+                    <h1>Machine Learning</h1>
+                </summary>
+                <ul>Fundamentals
+                    <li>Introduction to Machine Learning</li>
+                    <li>Regression</li>
+                    <li>Classification</li>
+                    <li>Probability Estimation & Dimensionality Reduction</li>
+                    <li>Decision Trees & Ensemble Methods</li>
+                </ul>
+                <ul>Application
+                    <li>Intro to Sklearn & Tensorflow</li>
+                    <li>Regression using Sklearn & Tensorflow</li>
+                    <li>Classification using Sklearn & Tensorflow</li>
+                    <li>Decision Trees using Sklearn & Tensorflow</li>
+                    <li>Using NN with Tensorflow</li>
+                </ul>
+            </details>
+        </div>
 
 
     </section>
     <section>
-        <h1>Deep Learning</h1>
-        <ul>Fundamentals
-            <li>Intro to DL</li>
-            <li>Intro to Perceptron & Neural Networks</li>
-            <li>Gradient Descent Algorithms</li>
-        </ul>
-        <ul>Applications
-            <li>Natural Language Processing</li>
-            <li>CNN-1,2</li>
-            <li>Computer Vision</li>
-            <li>OpenCV</li>
-        </ul>
+        <div>
+            <details>
+                <summary>
+                    <h1>Deep Learning</h1>
+                </summary>
+                <ul>Fundamentals
+                    <li>Intro to DL</li>
+                    <li>Intro to Perceptron & Neural Networks</li>
+                    <li>Gradient Descent Algorithms</li>
+                </ul>
+                <ul>Applications
+                    <li>Natural Language Processing</li>
+                    <li>CNN-1,2</li>
+                    <li>Computer Vision</li>
+                    <li>OpenCV</li>
+                </ul>
+            </details>
+
+
+        </div>
+
     </section>
 
     <section>
-        <h1>Data Engineering (Optional)
-        </h1>
-        <ul>
-            <li>Spark</li>
-            <li> Data Lakes</li>
-        </ul>
+        <div>
+            <details>
+                <summary>
+                    <h1>Data Engineering (Optional)
+                    </h1>
+                </summary>
+                <ul>
+                    <li>Spark</li>
+                    <li> Data Lakes</li>
+                </ul>
+            </details>
+
+
+        </div>
+
     </section>
 
     <section id="placement"></section>
