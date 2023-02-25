@@ -2,56 +2,541 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-    <title>Newton School Clone...</title>
-    <link rel="stylesheet" href="mainCss.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Newton School Lite</title>
+  <link href="style.css" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
 </head>
 
 <body>
-    <!-- =============NavBar Start -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto p-4 ml-lg-auto">
+        <a href="./index.html"><img src="./images/logo.png" class="logo pt-2 pr-5 "></a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+            Courses
+          </a>
+          <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item text-white" href="#">Data Science - Certificate Course</a>
+            <a class="dropdown-item text-white" href="#">Full-Stack Development - Certificate Course</a>
+            <a class="dropdown-item text-white" href="#">Master's in Computer Science - MIA University</a>
+            <a class="dropdown-item text-white" href="#">Full-Stack Development - Pay After Placement</a>
+          </div>
+        </li>
+        <li class="nav-item pl-3">
+          <a class="nav-link" href="#">Hire from Us </a>
+        </li>
+        <li class="nav-item pl-3">
+          <a class="nav-link" href="../NsClone_grp-1/Blog/index.html">Blog</a>
+        </li>
+        <li class="nav-item pl-3">
+          <a class="nav-link " href="#">CodeRush</a>
+        </li>
+        <li class="nav-item pl-3">
+          <a class="nav-link " href="#">AboutUs</a>
+        </li>
+        <li class="nav-item pl-3">
+          <a class="nav-link " href="../NsClone_grp-1/login page/login/contact.html">Contact</a>
+        </li>
+        <li> <a href="../NsClone_grp-1/login page/login/index.html"><button class="btn text-center ml-lg-3 badge-pill btn-color w-100"
+              type="submit">Login</button></a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row d-lg-flex justify-content-lg-center">
+      <div class="col-lg">
+        <h1 class="main-heading mt-lg-5 pt-lg-5">Take your career <br> to the next level</h1><br>
+        <div class="main-content">Build a rockstar tech career with us and earn ₹5-40 LPA</div>
+        <img src="./images/animated.png" class="mt-lg-2 pb-lg-5  h-50 w-75">
+      </div>
+      <div class="col-lg">
+        <p class="signup">Book a FREE class today</p>
+        <form class="form">
+          <label>Full Name</label><br>
+          <input type="text" placeholder="Your Name" class="input pl-lg-3" required><br><br>
+          <label>Email</label><br>
+          <input type="email" placeholder="Enter Email" class="input pl-lg-3" required><br><br>
+          <label>Phone Number</label><br>
+          <input type="tel" value="+91" class="input pl-lg-3" required><br>
+          <p class="signup-line pt-3 pl-3 mb-0">By clicking Sign Up, you agree to our <a href="#"><u>Terms &
+                Conditions</u></a></p>
+          <br>
+          <button type="submit" class="otp rounded"> Send OTP</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="content2 mt-5 text-center pb-4">A JOURNEY THAT IS TRUSTED</div>
+    <div class="row">
+      <div class="col-lg-3 text-center">
+        <h2 class="stats"><span class="text-gradient__indigo.stats">2500+</span></h2>
+        <h3 class="secondary-text text-center">Students<br>
+          Placed
+        </h3>
+      </div>
+      <div class="col-lg-3 text-center">
+        <h2 class="stats"><span class="text">1000+</span></h2>
+        <h3 class="secondary-text text-center">Industry<br>
+          Experts</h3>
+      </div>
+      <div class="col-lg-3 text-center">
+        <h2 class="stats"><span class="text">1500+</span></h2>
+        <h3 class="secondary-text text-center">Hiring<br>
+          Partners</h3>
+      </div>
+      <div class="col-lg-3 text-center">
+        <h2 class="stats"><span class="text">90%</span></h2>
+        <h3 class="secondary-text text-center">Placement<br>
+          Rate</h3>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-lg-5 d-lg-flex justify-content-lg-center" id="container4">
+    <div class="col-lg-6 ml-5 pl-5 mt-5 pt-5">
+      <h1 class="container4-heading">Download our placement <br>
+        handbook</h1>
+      <form class="mt-lg-3">
+        <label class="handbook-label-2 mt-2 pl-3">
+          Full Name
+        </label>
+        <br>
+        <input type="text" class="placement-handbook-field w-input badge-pill border-0 d-lg-block w-75" maxlength="256"
+          required>
+        <br>
+        <label class="handbook-label-2 mt-2 pl-3">
+          Email Address
+        </label>
+        <br>
+        <input type="email" class="placement-handbook-field w-input badge-pill border-0 d-lg-block w-75" maxlength="256"
+          required>
+        <br>
+        <label class="handbook-label-2 mt-2 pl-3">
+          Phone
+        </label>
+        <br>
+        <input type="tel" class="placement-handbook-field w-input badge-pill border-0 d-lg-block w-75" maxlength="256"
+          required>
+        <br>
+        <button
+          class="download border-0 font-weight-bold badge-pill text-white pl-5 pt-2 pr-5 pb-2 text-center">Download</button>
+      </form>
+    </div>
+    <div class="col-lg">
+      <img src="./images/laptop.webp" class="p-lg-5 w-75 mt-5">
+    </div>
+  </div>
+  <div class="container-fluid ">
+    <div class="content3 mt-lg-5 text-center">NEWTON SCHOOL STUDENTS WORK AT TOP COMPANIES</div>
+    <div class="row-lg">
+      <div class="col-lg-12">
+        <img src="./images/companies.webp" class="companies img-fluid w-100">
+      </div>
+    </div>
+  </div>
+  <div class="text-center mt-5 ">
+    <div class="content3">EXPLORE OUR OFFERINGS</div><br>
+    <h1 class="container4-heading">Unlimited learning<br>
+      Assured outcomes</h1>
+  </div>
+  <div class="card-deck  d-lg-flex justify-content-lg-center" id="card-main">
+    <div class="card ml-lg-5">
+      <div class="card-body-top rounded-top text-center p-lg-4 text-white">
+        <div>Certificate Course</div>
+        <h5 class="card-heading mt-lg-3">Full Stack Development</h5>
+        <button class="badge-pill border-0 mt-lg-3 pb-lg-1 pl-lg-3 pr-lg-3"><span class="btn-fontsize">Apply
+            Now</span></button>
+      </div>
+      <div class="card-body rounded-bottom p-lg-3">
+
+        <ul class="list list-unstyled">
+          <li>Live online classes</li>
+          <li>Flexible duration</li>
+          <li>EMI from ₹5,500*</li>
+          <li>Salary 8-50 LPA</li>
+          <li>1500+ hiring partners</li>
+          <li>Fully live classes</li>
+        </ul>
+
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body-top rounded-top text-center p-lg-4 text-white">
+        <div>MIA University, Spain</div>
+        <h5 class="card-heading mt-lg-3">Master's in Computer Science</h5>
+        <button class="badge-pill border-0 mt-lg-3 pb-lg-1 pl-lg-3 pr-lg-3"><span class="btn-fontsize">Apply
+            Now</span></button>
+      </div>
+      <div class="card-body rounded-bottom p-lg-3">
+
+        <ul class="list list-unstyled">
+          <li>Live online classes</li>
+          <li>Dual alumni status</li>
+          <li>EMI from ₹6,800*</li>
+          <li>60 ECTS credits</li>
+          <li>1500+ hiring partners</li>
+          <li>100% Placement assistance</li>
+        </ul>
+
+      </div>
+    </div>
+    <div class="card ">
+      <div class="card-body-top rounded-top text-center p-lg-3 text-white">
+        <div>Certificate Course</div>
+        <h5 class="card-heading mt-lg-3">Certificate Course in Data Science</h5>
+        <button class="badge-pill border-0 mt-lg-2 pb-lg-1 pl-lg-3 pr-lg-3"><span class="btn-fontsize">Apply
+            Now</span></button>
+      </div>
+      <div class="card-body rounded-bottom p-lg-4">
+
+        <ul class=" list list-unstyled">
+          <li>Live online classes</li>
+          <li>Professional certificate</li>
+          <li>EMI from ₹5,500*</li>
+          <li>Interview preparation</li>
+          <li>1500+ hiring partners</li>
+          <li>100% Placement assistance</li>
+        </ul>
+
+      </div>
+    </div>
+    <div class="card mr-lg-5">
+      <div class="card-body-top rounded-top text-center p-lg-4 text-white">
+        <div>Pay After Placement</div>
+        <h5 class="card-heading mt-lg-3">Full Stack Development</h5>
+        <button class="badge-pill border-0 mt-lg-3 pb-lg-1 pl-lg-3 pr-lg-3"><span class="btn-fontsize">Apply
+            Now</span></button>
+      </div>
+      <div class="card-body rounded-bottom p-lg-3">
+
+        <ul class="list list-unstyled">
+          <li>Live online classes</li>
+          <li>Fully live classes</li>
+          <li>Pay after placement</li>
+          <li>Salary 5-40 LPA</li>
+          <li>1500+ hiring partners</li>
+          <li>Soft skills training</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="content5 mt-5 pt-lg-5 text-lg-center">
+    <div class="small-heading"><strong class="bold-small">WELCOME TO THE OUTCOME POWERHOUSE</strong></div>
+    <h2 class="large-heading pt-lg-3 text-white"><strong class="bold-large">Your recipe for a rockstar career</strong>
+    </h2>
+  </div>
+  <div class="container-fluid pb-lg-5 text-white bg-color pt-lg-5">
+    <div class="row">
+      <div class="col ml-5">
+        <img src="./images/guidance.png" class="content5-img">
+        <h5><strong>Personal guidance</strong></h5>
+        <div>Get groomed by experienced software developers who are working in the <br>top companies.</div>
+      </div>
+
+      <div class="col">
+        <img src="./images/jobsearch.png" class="content5-img">
+        <h5> <strong>Dedicated placement team</strong></h5>
+        <div>A team of warriors ensure your profile reaches top companies.</div>
+      </div>
+
+      <div class="w-100"></div>
+      <div class="col ml-5 pt-5">
+        <img src="./images/interview.png" class="content5-img ">
+        <h5><strong>Unlimited Interview Practice</strong></h5>
+        <div>Gain confidence with unlimited mock interviews before the real interview.</div>
+      </div>
+      <div class="col pt-3">
+        <img src="./images/support.png" class="content5-img ">
+        <h5><strong>Lifelong support</strong></h5>
+        <div>Newton School does not end with the course. Your journey with us goes<br>beyond any course.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-columns m-lg-5 pl-lg-5 pr-lg-5">
+    <div class="card">
+      <div class="card-body color">
+        <div class="d-lg-inline-flex justify-content-lg-between">
+          <img src="./images/random1.jpeg" class="random rounded-circle w-25 p-lg-3 mr-lg-5 ">
+          <img src="./images/linkedinicon.png" class="linkedin-icon ml-lg-5 h-50">
+        </div>
+
+        <h5 class="card-title">Jawed Afroz</h5><strong class="designation">Associate Software Engineer at
+          Mobileum</strong>
+
+        <p class="card-text mt-3">Hello Connections!<br>
+
+          I am thrilled to announce that I've started my professional journey with Mobileum as Associate Software
+          Engineer.
+
+          I would like to thank my family and friends for their constant support and also the entire team of Newton
+          School for providing this amazing opportunity to kickstart my career.
+
+          Looking forward to a great learning experience!</p>
+        <small class="text-muted">11 Aug 2022</small>
+      </div>
+    </div>
+
+    <div class="card p-3 color">
+      <div class="d-lg-inline-flex justify-content-lg-between">
+        <img src="./images/random2.webp" class="random rounded-circle w-25 p-lg-3 mr-lg-5">
+        <img src="./images/linkedinicon.png" class="linkedin-icon ml-lg-5 h-50">
+      </div>
+      <h5 class="card-title">Shikhar Pathak</h5><strong class="designation">SDE-1 at Vajro</strong>
+      <p class="card-text mt-3">A note of thanks to Newton School
+        I joined Newton in January 2021, when a friend of mine who also got placed from Newton told me about the course.
+        The course completed 6 months later. The course was well structured and well paced. Mentor sessions were held
+        regularly and immensely helpful. The course completed on time and during placements there were a lot of
+        companies to apply and choose from.
+
+        I had no idea of ReactJS, NodeJS, MongoDB, Express and JavaScript. I had basic DSA knowledge to begin with.
+        The course was a 6 month long bootcamp and yes its obvious that you are expected to work hard for it. The first
+        half was focused on Data Structures and Algorithms and the second half on Web Development.
+
+        Newton delivered every bit of what it promised.
+
+        I am forever indebted and eternally grateful to Newton School for believing in me as well as guiding me like an
+        elder brother. I literally had no money to pay upfront and the opportunity to learn for free and pay only after
+        placement was exactly what I needed.
+
+        Actual company interviews felt like a cake walk after Newton School’s mock interviews. I am living the best life
+        now - I feel confident, have finally gotten employed as a Full Stack Developer, and I am finally able to help my
+        family with their finances.
+        Thank you Newton School!
+
+        #forevergrateful</p>
+
+      <small class="text-muted">
+        5 Aug 2022
+      </small>
+    </div>
+    <div class="card">
+      <div class="card-body color">
+        <div class="d-lg-inline-flex justify-content-lg-between">
+          <img src="./images/random3.jpg" class="random rounded-circle w-25 p-lg-3 mr-lg-5">
+          <img src="./images/linkedinicon.png" class="linkedin-icon ml-lg-5 h-50">
+        </div>
+        <h5 class="card-title">Aditya Ahir</h5>
+        <p class="card-text mt-3">I am very happy with the overall experience at Newton School. It was a struggle in the
+          initial phase of the course because I was from an ECE background. So I had to work hard to learn DSA and get
+          on track with the course. I would like to thank Tanmay Arya, Shubham Bhasin, Arfat Salman, and Abhishek
+          Prajapat ✅ for their valuable guidance in DSA, Frontend & Backend. The mock interviews were the most exciting
+          element of the course. During the mock interviews, I used to have a lot of trouble expressing myself. As a
+          result, I used to take feedback seriously and try to fix it for the next time. After many interviews, I was
+          eventually able to respond in a professional and comprehensive manner. The mentors used to regularly provide
+          feedback on both technical and soft skills. Management at newton school is also very helpful. I also want to
+          thank Lalson Devassy for his support in my placement queries. #experience #newtonschool</p>
+        <small class="text-muted">11 Aug 2022</small>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body color">
+        <div class="d-lg-inline-flex justify-content-lg-between">
+          <img src="./images/random4.jpeg" class="random rounded-circle w-25 p-lg-3 mr-lg-5">
+          <img src="./images/linkedinicon.png" class="linkedin-icon ml-lg-5 h-50">
+        </div>
+        <h5 class="card-title">Prashant Chavda</h5>
+        <strong class="designation">Spatial Data Specialist at HERE Technologies</strong>
+        <p class="card-text mt-3">I'm very scared when I'm planning to join Newton School because I'm from mechanical
+          engineer branch I don't know anything about coding but then i talk with nishant sir and jai sir and they
+          explained me everything about Master program #newtonschool #M.S-CSE #MIA-Newton School
+          #Newtonschool-Mastersdegree
+          then i finally got call from Aanchal Khosla she explained me the program and after the 2days of class I'm now
+          confidence that i can do it thanks to teacher Vedansh sir and our mentor Shreeyas. And very thankful for that
+          kind of Master degree program Newton school and the Co-founder Mr Siddharth Maheshwari .now i feel that i can
+          be a good developers and get in computer science feild get good job after completing.</p>
+        <small class="text-muted">5 Aug 2022</small>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card p-3 text color">
+        <div class="d-lg-inline-flex justify-content-lg-between">
+          <img src="./images/random5.jpg" class="random rounded-circle w-25 p-lg-3 mr-lg-5">
+          <img src="./images/linkedinicon.png" class="linkedin-icon ml-lg-5 h-50">
+        </div>
+        <h5 class="card-title">HARISH KUMAR</h5>
+        <strong class="designation">Associate Software Engineer at Commonwealth Bank</strong>
+        <p class="card-text mt-3">Thinking about 7 digit CTC is just a dream if you are an avarage student and belongs
+          to tier 3 colleges.Now just paying back to government as income tax which was waive off in government
+          college.It was not possible without Newton School & #team I know thanks is a small word for you but thanks for
+          the great changes in my life.Siddharth Maheshwari Arfat Salman
+          Shubham Bhasin
+          #ITR</p>
+
+        <small class="text-muted">
+          11 Aug 2022
+        </small>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body color">
+        <div class="d-lg-inline-flex justify-content-lg-between">
+          <img src="./images/random6.jpeg" class="random rounded-circle w-25 p-lg-3 mr-lg-5 ">
+          <img src="./images/linkedinicon.png" class="linkedin-icon ml-lg-5 h-50">
+        </div>
+        <h5 class="card-title">Robin Maan</h5>
+        <strong class="designation">Full Stack Web Developer at Zykrr</strong>
+        <p class="card-text mt-3">I have some exciting news to share! I have accepted a new position as the Software
+          Engineer for Zykrr- Experience Analytics and Management Platform [Top 20 CX Solution Providers] . And I would
+          like to thank everyone at Zykrr for giving me this opportunity. "I am very excited to start this new journey!"
+
+          Thank you so much Siddharth Maheshwari sir, All my mentors, Instructors and whole Newton School team, for your
+          guidance in my way to success. You guys helped me in my hard times and turned me into a Fullstack developer.
+        </p>
+        <small class="text-muted">5 Aug 2022</small>
+      </div>
+    </div>
+  </div>
+  <div class="text-lg-center mb-lg-4  d-lg-block justify-content-lg-center">
     <div>
-        <nav class="newton-school-navbar">
-            <div >
-                <div class="row-header">
-                    <div class="newton-name">
-                        <a href="#">
-                            <img src="https://d15kzf698mbmzz.cloudfront.net/dist/f426a54e85b2efc0976d.png"
-                                alt="Nnewton school">
-                        </a>
-                        <button href="#" class="refer">Refer a Friends<span>🚀</span></button>
-                        <div> <a href="#">
-                            <img id="head" src="https://tse3.mm.bing.net/th?id=OIP.B-9_zW0jkoI0wC3zF31DQwHaHa&pid=Api&P=0">
-                         </a>
-                        </div>            
-                    </div>
-                </div>
-
-            </div>
-
-        </nav>
+      <strong class="small-title">MAKING A BUZZ, FOR THE RIGHT REASONS</strong>
     </div>
-    <!-- =============NavBar Start end -->
-
-
-    <!-- =====================Main container start======================= -->
-    <div class="conatainer-fluit">
-
+    <h2 class="title">In the news</h2>
+  </div>
+  <div class="container-fluid">
+    <div class="row seven-cols d-flex justify-content-lg-between mb-lg-5">
+      <div class="col-md-1"><a href="https://www.forbes.com"><img src="./images/np1.png"
+            class="newspaper mt-lg-4 h-50 ml-lg-2 "></a></div>
+      <div class="col-md-1"><a href="https://www.financialexpress.com"><img src="./images/np2.png"
+            class="newspaper h-100 "></a></div>
+      <div class="col-md-1"><a href="https://m.timesofindia.com"><img src="./images/np3.png"
+            class="newspaper h-100"></a></div>
+      <div class="col-md-1"><a href="https://epaper.thehindu.com"><img src="./images/np4.png"
+            class="newspaper h-100 "></a></div>
+      <div class="col-md-1"><a href="https://www.indiatoday.in"><img src="./images/np5.png"
+            class="newspaper mt-lg-4 h-50 "></a></div>
+      <div class="col-md-1"><a href="https://www.thebetterindia.com"><img src="./images/np6.png"
+            class="newspaper mt-lg-4 h-50 "></a></div>
+      <div class="col-md-1"><a href="https://www.outlookmoney.com"><img src="./images/np7.png"
+            class="newspaper mt-lg-4 h-50 "></a></div>
     </div>
-    <!-- =====================Main container start end======================= -->
+  </div>
+  <!-- Footer -->
+  <footer class="bg-black text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <a href="./index.html"><img src="./images/logo.png" class="logo"></a>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase text-left pl-0">COURSES</h5>
+
+            <ul class="list-unstyled mb-0 text-left">
+              <li>
+                <a href="#!" class="text-white">Certificate Course in Full Stack Development</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Certificate Course in Data Science</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Master's in Computer Science</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Full Stack Development - Pay After Placement</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase text-left ml-5">COMPANY</h5>
+
+            <ul class="list-unstyled mb-0 text-left ml-5">
+              <li>
+                <a href="#!" class="text-white">About Us</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Blog</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Hire From Us</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Careers</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Contacts</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-3 mb-md-0 " id="section2">
+            <h5 class="text-uppercase text-left">MORE</h5>
+
+            <ul class="list-unstyled mb-0 text-left">
+              <li>
+                <a href="#!" class="text-white ">CodeRush</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white ">Launchpad</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white ">Sign In</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white ">Create Account</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="mb-4">
+        <div class="pt-5">
+          <strong>FOLLOW US</strong>
+        </div>
+      </section>
+      <section class="mb-4">
+        <!-- Twitter -->
+        <a class="btn btn-floating bg" href="https://twitter.com" role="button" target="_blank"><i
+            class="fab fa-twitter text-white"></i></a>
+
+        <!-- Google -->
+        <a class="btn btn-floating bg text-white" href="https://www.google.com" role="button" target="_blank"><i
+            class="fab fa-google"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-floating bg text-white" href="https://www.instagram.com" role="button" target="_blank"><i
+            class="fab fa-instagram"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-floating bg text-white" href="https://in.linkedin.com/" role="button" target="_blank"><i
+            class="fab fa-linkedin-in"></i></a>
+      </section>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      <a class="text-white m-3" href="#">© 2022 Incanus Technologies Pvt Ltd.</a>
+      <a class="text-white m-3 " href="#">Terms & Conditions</a>
+      <a class="text-white m-3" href="#">Privacy Policy</a>
+      <a class="text-white m-3" href="#">Grievance Redressal</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
