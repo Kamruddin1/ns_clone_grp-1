@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Science Course</title>
     <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
-    <link rel="icon" href="./NS_Lite.png">
+    <link rel="icon" href="./img/NS_Lite.png">
     <style>
         #div {
             padding: 20px;
@@ -75,11 +75,33 @@
             list-style: none;
         }
 
-        li{
+        li {
             list-style: none;
             padding: 5px;
         }
 
+        /* instrctor grid */
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+
+        .grid-item {
+            text-align: center;
+        }
+
+        .grid-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .grid-item .caption {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
     </style>
 </head>
 
@@ -185,8 +207,44 @@
                 provide you with in-depth knowledge and practical training to help you succeed in the field
                 of data science.</p>
         </div>
+        <!-- <div>
         <img src="./img/instructors.png" alt="img instructors">
-        </div>
+        </div> -->
+    </section>
+    <section>
+        <div class="grid-container">
+            <div class="grid-item">
+              <img src="./img/Priyanshu Bikas.png" alt="Photo1">
+              <p class="caption">Priyanshu Bikas </p>
+              <p>Absolutedata Analytics</p>
+            </div>
+            <div class="grid-item">
+              <img src="./img/Mohit Suri.png" alt="Photo2">
+              <p class="caption">Mohit Sahu</p>
+              <p>TEKsystems</p>
+            </div>
+            <div class="grid-item">
+              <img src="./img/Sachin Mohan.png" alt="Photo3">
+              <p class="caption">Sachin Mohan</p>
+              <p>Zee5</p>
+            </div>
+            <div class="grid-item">
+              <img src="./img/Subhodeep Mukharjee.png" alt="Photo44">
+              <p class="caption">Subhodeep Mukharjee</p>
+              <p>Amazon</p>
+            </div>
+            <div class="grid-item">
+              <img src="./img/Mohit Suri.png" alt="Photo5">
+              <p class="caption">Punit Singh</p>
+              <p>Cisco</p>
+            </div>
+            <div class="grid-item">
+              <img src="./img/Rahul Thakur.png" alt="Photo6">
+              <p class="caption">Rahul Thakur</p>
+              <p>Unacademy</p>
+            </div>
+          </div>
+          
     </section>
     <section id="course">
         <div>
@@ -239,7 +297,7 @@
                         <li>Hypotheis Testing</li>
                         <li>Inferential Statistics</li>
                     </ul>
-                    </div>
+                </div>
             </details>
         </div>
         </div>
@@ -396,13 +454,14 @@
     <section>
         <div>
             <details>
-                <summary><p>What is the duration of the Professional Data Science Certification course by Newton School?
+                <summary>
+                    <p>What is the duration of the Professional Data Science Certification course by Newton School?
                     </p>
-                    </summary>
-                    <p>The course takes 8-9 months to complete for Data Science, and 12-14 months to complete for
-                        Advanced
-                        Data
-                        Science, including mock interviews after the learning journey with instructors.</p>
+                </summary>
+                <p>The course takes 8-9 months to complete for Data Science, and 12-14 months to complete for
+                    Advanced
+                    Data
+                    Science, including mock interviews after the learning journey with instructors.</p>
             </details>
 
 

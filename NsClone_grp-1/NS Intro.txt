@@ -1,6 +1,7 @@
 Greetings Sir/Madams my name is Anoop Yadav from team Mind Optimizer. Under the supervision of our mentor Sandeep Jha
 sir we have Designed and developed our project which is Newton School Lite Website using HTML,CSS and Bootstrap
 Framework. 
+
 Need-Newton School Lite was developed to address the issues faced by users who were using Newton School on slow
 internet connections and low-end devices. The regular Newton School website require high-speed internet and advanced
 hardware capabilities, which are not available in many parts.Newton School Lite is a stripped-down version of the
@@ -10,5 +11,6 @@ Additionally, Newton School Lite is optimized for low-end devices and operates s
 storage space.Furthermore, Newton School Lite was designed to cater to users in developing Areas, where internet
 connectivity is often limited or unreliable. By providing a more lightweight and efficient version of the Newton
 School Website.
+
 In Summary Newton School Lite was needed because it provides a more accessible and efficient option for users in
 areas with slow internet connections and low-end devices.
